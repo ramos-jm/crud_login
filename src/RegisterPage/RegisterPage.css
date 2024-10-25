@@ -1,0 +1,194 @@
+/* Body */
+body {
+    background-color: #1e1d54;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.register-header {
+    width: 100%;
+    background-color: #1B1A55;
+    padding: 13.5px 0;
+    box-shadow: 0px 3.6px 5.4px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.register-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 972px;
+    margin: 0 auto;
+}
+
+.register-nav-logo {
+    color: #ffffff;
+    font-size: 21.6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 27px;
+}
+
+.register-nav-links li {
+    display: inline-block;
+}
+
+.register-nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14.4px;
+    transition: color 0.3s ease;
+}
+
+.register-nav-links a:hover {
+    color: #bbbbbb;
+}
+
+/* Register Page Styling */
+.register-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89.75vh;
+    background-color: #1e1d54;
+    color: #ffffff;
+}
+
+/* Transformed Container */
+.register-page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 27px; /* Adjusted size */
+    max-width: 900px; /* Adjusted size */
+    background-color: #9290c3;
+    padding: 36px; /* Adjusted size */
+    border-radius: 14.4px; /* Adjusted size */
+    box-shadow: 0 9px 22.5px rgba(0, 0, 0, 0.1); /* Adjusted size */
+    color: #4d4a69;
+    margin-top: -60px;
+}
+
+/* Register Section */
+.register-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-form-section h1 {
+    font-size: 25.2px; /* Adjusted size */
+    color: #fbf6f6;
+    margin-bottom: 13.5px; /* Adjusted size */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.register-form-section p {
+    font-size: 12.6px; /* Adjusted size */
+    margin-bottom: 18px; /* Adjusted size */
+    color: #555;
+}
+
+.register-input-group {
+    position: relative;
+    margin-bottom: 18px; /* Adjusted size */
+}
+
+.register-input-group input {
+    width: 100%;
+    padding: 10.8px; /* Adjusted size */
+    background-color: #9290c3;
+    border: 1px solid #ccc;
+    border-radius: 7.2px; /* Adjusted size */
+    font-size: 12.6px; /* Adjusted size */
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.register-input-group input:focus {
+    border: 1px solid #726ca8;
+}
+
+.register-input-group label {
+    position: absolute;
+    top: -9px;
+    left: 13.5px;
+    background: #9290c3;
+    padding: 0 4.5px; /* Adjusted size */
+    font-size: 10.8px; /* Adjusted size */
+    color: #555;
+}
+
+.register-terms-section {
+    font-size: 11.7px; /* Adjusted size */
+    color: #666;
+    margin-bottom: 18px; /* Adjusted size */
+}
+
+.register-create-account-btn {
+    background-color: #726ca8;
+    color: white;
+    border: none;
+    padding: 10.8px 13.5px; /* Adjusted size */
+    border-radius: 7.2px; /* Adjusted size */
+    font-size: 12.6px; /* Adjusted size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-create-account-btn:hover {
+    background-color: #5e5497;
+}
+
+/* Profile Picture Section */
+.profile-picture-section {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9290c3;
+    border: 4px dashed #ffffff;
+    border-radius: 14.4px; /* Reduced by 10% */
+    padding: 18px; /* Reduced by 10% */
+  }
+  
+  .profile-picture-section img {
+    width: 108px; /* Reduced by 10% */
+    height: 108px; /* Reduced by 10% */
+    border-radius: 50%;
+    margin-bottom: 13.5px; /* Reduced by 10% */
+    object-fit: cover;
+  }
+  
+  .profile-picture-section input[type="file"] {
+    display: none;
+  }
+  
+  .profile-picture-section label {
+    background-color: #726ca8;
+    color: #fff;
+    padding: 9px 18px; /* Reduced by 10% */
+    border-radius: 7.2px; /* Reduced by 10% */
+    font-size: 12.6px; /* Reduced by 10% */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-picture-section label:hover {
+    background-color: #60509b;
+  }
+  
+  .profile-picture-section p {
+    margin-top: 9px; /* Reduced by 10% */
+    font-size: 11.7px; /* Reduced by 10% */
+    color: #555;
+  }

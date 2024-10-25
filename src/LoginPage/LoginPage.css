@@ -1,0 +1,254 @@
+.header {
+  width: 100%;
+  background-color: #070F2B;
+  padding: 13.5px 0; /* Reduced by 10% */
+  box-shadow: 100px 3.6px 5.4px rgba(white, 0, 0, 0.5); /* Reduced by 10% */
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 972px; /* Reduced by 10% */
+  margin: 0 auto;
+}
+
+.nav-logo {
+  color: #ffffff;
+  font-size: 21.6px; /* Reduced by 10% */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 27px; /* Reduced by 10% */
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14.4px; /* Reduced by 10% */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bbbbbb;
+}
+
+/* Input group styling for animation */
+.input-group {
+  position: relative;
+  margin: 20.25px auto; /* Reduced by 10% */
+  width: 90%; /* Reduced by 10% */
+}
+
+.input-group input {
+  width: 100%; /* Reduced by 10% */
+  padding: 15.15px; /* Reduced by 10% */
+  padding-left: 20.77px; /* Reduced by 10% */
+  background-color: #8d82ba;
+  border: none;
+  border-radius: 8.1px; /* Reduced by 10% */
+  color: #fff;
+  font-size: 12.96px; /* Reduced by 10% */
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  left: 12.15px; /* Reduced by 10% */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #dcd6f7;
+  font-size: 12.96px; /* Reduced by 10% */
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-group.focused label,
+.input-group input:focus + label {
+  top: -8.1px; /* Reduced by 10% */
+  font-size: 9.72px; /* Reduced by 10% */
+  color: #fff;
+}
+
+.input-group input:focus {
+  border: 1.62px solid #fff; /* Reduced by 10% */
+}
+
+/* Styling the eye icon */
+.eye-icon {
+  position: absolute;
+  right: -11px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 16.2px; /* Reduced by 10% */
+  height: 16.2px; /* Reduced by 10% */
+}
+
+/* General styling remains the same */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89.75vh; /* Reduced by 10% */
+  background-color: #070F2B;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  max-width: 874.8px; /* Reduced by 10% */
+  height: 550.8px; /* Reduced by 10% */
+  border-radius: 16.2px; /* Reduced by 10% */
+  background: #1b1a55;
+  overflow: hidden;
+  margin-top: -100px;
+}
+
+.left-section {
+  margin-left: auto;
+  margin: auto;
+  width: 464.13px; /* Reduced by 10% */
+  border-radius: 16.2px; /* Reduced by 10% */
+  font-weight: bolder;
+  background-color: #1b1a55;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section h1 {
+  font-weight: 900;
+  font-size: 29.16px; /* Reduced by 10% */
+  margin-bottom: 16.2px; /* Reduced by 10% */
+  color: #ffffff;
+  text-align: center;
+}
+
+.left-section a {
+  margin-top: 16.2px; /* Reduced by 10% */
+  margin-bottom: 24.3px; /* Reduced by 10% */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.left-section a:hover {
+  color: #bbbbbb;
+  text-decoration: underline;
+}
+
+.left-section .sign-up-btn {
+  background-color: transparent;
+  color: #fff;
+  width: 243px; /* Reduced by 10% */
+  height: 36.45px; /* Reduced by 10% */
+  font-size: 12.96px; /* Reduced by 10% */
+  border: 1.62px solid #ffffff; /* Reduced by 10% */
+  border-radius: 6.48px; /* Reduced by 10% */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.left-section .sign-up-btn:hover {
+  background-color: #ffffff;
+  color: #251d52;
+}
+
+.signin,
+.user_icon {
+  width: 97.2px; /* Reduced by 10% */
+  height: 97.2px; /* Reduced by 10% */
+}
+
+.right-section {
+  
+  border-radius: 16.2px; /* Reduced by 10% */
+  width: 410.67px; /* Reduced by 10% */
+  height: 583.2px; /* Reduced by 10% */
+  background-color: #9290c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.right-section h1 {
+  font-weight: 900;
+  font-size: 25.92px; /* Reduced by 10% */
+  margin-bottom: 16.2px; /* Reduced by 10% */
+  color: #ffffff;
+}
+
+.right-section button {
+  background-color: #8d82ba;
+  width: 243px; /* Reduced by 10% */
+  height: 36.45px; /* Reduced by 10% */
+  font-size: 12.96px; /* Reduced by 10% */
+  border: none;
+  border-radius: 6.48px; /* Reduced by 10% */
+  color: #fff;
+  cursor: pointer;
+  margin-top: 16.2px; /* Reduced by 10% */
+  box-shadow: 0px 4.05px 12.15px rgba(0, 0, 0, 0.2); /* Reduced by 10% */
+  transition: background-color 0.3s ease;
+  margin-bottom: 81px; /* Reduced by 10% */
+  margin-left: 28.15px; /* Reduced by 10% */
+}
+
+.right-section button:hover {
+  background-color: #60509b;
+}
+
+/* Additional Options */
+.right-section .options {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 900px; /* Reduced by 10% */
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  align-items: center;
+  color: #ffffff;
+  width: 100%;
+  margin: 11.1px 0; /* Reduced by 10% */
+}
+
+.right-section .remember-me {
+  display: flex;
+  align-items: center;
+  margin-left: 20.1px; /* Reduced by 10% */
+  font-size: 12px;
+}
+
+.right-section .remember-me input {
+  transform: scale(1); /* Reduced by 10% */
+  background-color: fffff;
+  margin-right: 8.1px; /* Reduced by 10% */
+  vertical-align: middle;
+}
+
+.right-section .forgot-password {
+  margin-left: 8.1px; /* Reduced by 10% */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 10px; /* Reduced by 10% */
+  vertical-align: middle;
+}
+
+.right-section .forgot-password:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}

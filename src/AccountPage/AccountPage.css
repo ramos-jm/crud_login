@@ -1,0 +1,184 @@
+/* Body */
+body {
+    background-color: #070F2B;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.account-header {
+    width: 100%;
+    background-color: #070F2B;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.account-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.account-nav-logo {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.account-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.account-nav-links li {
+    display: inline-block;
+}
+
+.account-nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.account-nav-links a:hover {
+    color: #bbbbbb;
+}
+
+/* Page Container */
+.account-page-container {
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #070F2B;
+}
+
+/* Form Section */
+.account-page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px; /* Increased from 30px */
+    max-width: 1080px; /* Increased from 900px */
+    background-color: #1B1A55;
+    padding: 48px; /* Increased from 40px */
+    border-radius: 18px; /* Increased from 15px */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* Increased shadow for a more pronounced effect */
+    color: #fff;
+}
+
+.account-form-section h1 {
+    font-size: 31.2px; /* Increased from 26px */
+    color: #fff;
+    margin-bottom: 18px; /* Increased from 15px */
+}
+
+.form-row {
+    display: flex;
+    gap: 24px; /* Increased from 20px */
+}
+
+.account-input-group {
+    margin-bottom: 24px; /* Increased from 20px */
+    position: relative;
+}
+
+.account-input-group input {
+    width: 100%;
+    padding: 14.4px; /* Increased from 12px */
+    background-color: #1B1A55;
+    color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 9.6px; /* Increased from 8px */
+    font-size: 16.8px; /* Increased from 14px */
+    transition: border 0.3s ease;
+}
+
+.account-input-group input:focus {
+    border-color: #726ca8;
+}
+
+.account-input-group label {
+    position: absolute;
+    top: -12px; /* Adjusted based on increased size */
+    left: 18px; /* Increased from 15px */
+    background: #1B1A55;
+    padding: 0 6px; /* Increased slightly to fit label */
+    font-size: 14.4px; /* Increased from 12px */
+    color: #fff;
+}
+
+.account-save-btn {
+    margin-left: 35%;
+    background-color: #60509b;
+    color: white;
+    border: none;
+    padding: 14.4px 18px; /* Increased from 12px 15px */
+    border-radius: 9.6px; /* Increased from 8px */
+    font-size: 16.8px; /* Increased from 14px */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-save-btn:hover {
+    background-color: #4f3d85;
+}
+
+/* Profile Picture Section */
+.profile-picture-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B1A55;
+    border: 4.8px dashed #fff; /* Increased from 4px */
+    border-radius: 18px; /* Increased from 15px */
+    padding: 24px; /* Increased from 20px */
+    position: relative;
+}
+
+.profile-picture-section img {
+    width: 132px; /* Increased from 110px */
+    height: 132px; /* Increased from 110px */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 18px; /* Increased from 15px */
+}
+
+.profile-picture-section input[type="file"] {
+    display: none;
+}
+
+.profile-picture-section label {
+    background-color: #60509b;
+    color: #fff;
+    padding: 12px 24px; /* Increased from 10px 20px */
+    border-radius: 9.6px; /* Increased from 8px */
+    cursor: pointer;
+}
+
+.profile-picture-section label:hover {
+    background-color: #4f3d85;
+}
+
+.profile-picture-section p {
+    margin-top: 12px; /* Increased from 10px */
+    font-size: 14.4px; /* Increased from 12px */
+    color: #fff;
+}
+
+.profile-picture-section.drag-active {
+    background-color: #60509b;
+    border-color: #4f3d85;
+}
+
+/* Add hover effect when dragging an image over the drop area */
+.profile-picture-section.drag-active label {
+    color: #ffdd57;
+}
+
